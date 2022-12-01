@@ -3,6 +3,6 @@
 //-----------------------------------------------------------------------------
 
 exports.helloWorld = (req, res) => {
-  const message="<font color='blue'>СloudFunction build Sekator + inet!</font><br><b>App Version 1.1.1</b>";
+  const message="<font color='blue'>СloudFunction build Sekator from main brunch + inet!</font><br><b>App Version 1.1.1</b>";
   res.status(200).send(message);
 };
